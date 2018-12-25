@@ -41,11 +41,3 @@ docker build ./ -t apollostudio/python-ml-kit:py3.6.4-alpine3.7
 * seaborn
 
 他に取り込みたいものは適宜インストールしてください。
-
----
-
-### その他
-
-VSCodeでPythonコーディング環境を構築したい方や、AnacondaでPython実行環境を構築したい方は、次のリポジトリをご覧ください。
-
-https://github.com/apollostudio/setup-python
