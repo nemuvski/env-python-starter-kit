@@ -5,7 +5,7 @@ services:
     container_name: devenv-py-ml
     build:
       context: ./
-    image: apollostudio/python-ml-kit:py3.6.4-alpine3.7
+    image: nemuvski/python-ml-kit:py3.6.4-alpine3.7
     volumes:
       - ./workspace:/home/dev/workspace
     command: sh
